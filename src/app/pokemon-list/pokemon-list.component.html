@@ -1,0 +1,30 @@
+<div>
+    <div *ngFor="let pokemon of pokemons">
+
+        <div class="alignline"><div class="line"></div></div>
+            
+
+          <div class="parent">
+            <div class="div1"> 
+                
+                <div id="retangulo">
+                    <img [src]="pokemon.sprites.front_default" alt="">
+                    
+                </div>
+
+            </div>
+            <div class="div2">
+   
+                <h2> {{ pokemon.name }}
+                </h2>
+                <p>Características do pokemon dolor sit amet, consectetur adipiscing elit. In ultricies nunc at odio tempor tincidunt. Sed sit amet dolor velit. Donec convallis tellus ut porta molestie. Suspendisse condimentum et dui in aliquam.
+                </p>
+                
+            </div>
+            
+            
+        </div>
+
+    </div>
+    
+</div>
